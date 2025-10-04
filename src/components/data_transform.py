@@ -101,8 +101,8 @@ class DataTransform:
             )
             
             return {
-               "train_arc" : train_arc,
-                "test_arc" : test_arc,
+               "train_arr" : train_arc,
+                "test_arr" : test_arc,
                 "preprocessing_obj" : self.data_transform_config.preprocessor_obj_file_path
             }
         except Exception as e:
